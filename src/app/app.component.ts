@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <div>
       <div [class.green]="this.green">
         <span [class.big]="this.big">
-          <h1>Minimalist</h1>
+          <h1>Class binding example</h1>
         </span>
       </div>
       <button (click)="toggleThisGreen()">
